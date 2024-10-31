@@ -1,0 +1,39 @@
+﻿
+        //[HttpGet]
+        //public List<Product> getproductdata()
+        //{
+        //    return _dbcontext.Products.ToList();
+        //}
+        //[HttpPost]
+        //public async Task<ActionResult> postProduct(Product prod)
+        //{
+        //    await _dbcontext.Products.AddAsync(prod);
+        //    return Ok(await _dbcontext.SaveChangesAsync());
+        //}
+        //[HttpPut("{id}")]
+        //public ActionResult putProduct(int id, Product prod)
+        //{
+        //    string query = "Update [dbo].[Products] set prodName= '" + prod.ProdName + "', prodPrice= '" + prod.ProdPrice + "', prodBrand = '" + prod.ProdBrand + "' where ProductId = '" + id + "'";
+        //    bool q = _iquery.InsertCustomerData(query);
+        //    if (q)
+        //        return Ok(); 
+        //    return BadRequest();
+        //}
+        //[HttpDelete("{id}")]
+        //public ActionResult deleteProductbyId(int id)
+        //{
+        //    IEnumerable<Product> product = Getprodbyid(id);
+        //    if (product.Count() == 0)
+        //        return BadRequest();
+        //    string query = "delete from Products where ProductId = '" + id + "'";
+        //    bool q = _iquery.InsertCustomerData(query);
+        //    if(q)
+        //        return Ok();
+        //    return BadRequest();
+        //}
+
+        //[HttpGet("{id}")]
+        //public IEnumerable<Product> Getprodbyid(int id)
+        //{
+        //    return _dbcontext.Products.Where(x => x.ProductId == id).ToList();
+        //}
