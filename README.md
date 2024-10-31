@@ -4,7 +4,11 @@ This project features a set of RESTful APIs designed for managing customer and p
 Utilizing ADO.NET, the APIs leverage inline SQL queries to ensure efficient data manipulation while minimizing code redundancy. This approach enhances maintainability and readability, making it easier to manage and extend the API as needed.
 
 **Key Features:**
-__Comprehensive CRUD operations for customers and products
-Efficient database interactions using ADO.NET
-Inline SQL queries to reduce code duplication
-Emphasis on maintainability and scalability_
+
+_Comprehensive CRUD operations for customers and products_
+
+_Efficient database interactions using ADO.NET_
+
+_Inline SQL queries to reduce code duplication_
+
+_Emphasis on maintainability and scalability__
